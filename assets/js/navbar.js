@@ -5,9 +5,10 @@ const NAVBAR_ARTISTS = [
   { name: "Bubba Irwin", file: "bubba-irwin.html" },
   { name: "Tex", file: "tex.html" },
   { name: "Brett", file: "brett.html" },
+  { name: "Cody", file: "cody.html" },
   { name: "Devyn", file: "devyn.html" },
   { name: "Don", file: "don.html" },
-  { name: "Grace", file: "grace.html" },
+  { name: "Gracey", file: "grace.html" },
   { name: "Johnny", file: "johnny.html" },
   { name: "Nate Brothers", file: "natebrothers.html" },
 ];
@@ -76,11 +77,6 @@ const NAVBAR_ARTISTS = [
   </div>
   <div class="fancynavbar-collapse">
     <ul class="fancynavbar-nav">
-      <li class="fancynav-item">
-        <a class="fancynav-link" href="${pathPrefix}store.html"
-          ><span class="fancynav-link-content">Store</span></a
-        >
-      </li>
       <li class="fancynav-item fancy-dropdown">
         <a
           class="fancynav-link fancy-dropdown-toggle"
