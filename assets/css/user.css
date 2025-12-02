@@ -1,7 +1,75 @@
 /* prettier-ignore */
 /*-----------------------------------------------
-|   Navigation 
+||   Navigation 
 ------------------------------------------------*/
 /*-----------------------------------------------
-|   Navbar Brand 
+||   Navbar Brand 
 ------------------------------------------------*/
+
+/*-----------------------------------------------
+||   Portfolio Grid
+------------------------------------------------*/
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 120px);
+  gap: 8px;
+  padding: 0px 0px;
+}
+
+.grid-item {
+  overflow: hidden;
+  height: 100%;
+  background-color: black;
+}
+
+.div1 {
+  grid-row: span 2 / span 2;
+}
+
+.div4 {
+  grid-row: span 2 / span 2;
+}
+
+.div5 {
+  grid-row: span 2 / span 2;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.div6 {
+  grid-row: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.div7 {
+  grid-row-start: 3;
+}
+
+.div8 {
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+
+.div9 {
+  grid-row: span 2 / span 2;
+  grid-row-start: 4;
+}
+
+.div10 {
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+.div11 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+#page-portfolio {
+  min-height: 100vh;
+}
