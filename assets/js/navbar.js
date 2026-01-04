@@ -7,7 +7,6 @@ const NAVBAR_ARTISTS = [
   { name: "Brett", file: "brett.html" },
   { name: "Cody", file: "cody.html" },
   { name: "Devyn", file: "devyn.html" },
-  { name: "Don", file: "don.html" },
   { name: "Gracey", file: "grace.html" },
   { name: "Johnny", file: "johnny.html" },
   { name: "Nate Brothers", file: "natebrothers.html" },
